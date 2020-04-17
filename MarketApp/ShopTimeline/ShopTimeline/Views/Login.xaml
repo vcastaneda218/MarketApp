@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#2C3359"
+             xmlns:flex="clr-namespace:Flex.Controls;assembly=Flex"
+             x:Class="ShopTimeline.Views.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label
+            FontSize="24"
+            HorizontalOptions="CenterAndExpand"
+            Style="{StaticResource LabeStyle}"
+            Text="LOGIN"
+            VerticalOptions="CenterAndExpand" />
+            
+            <Image VerticalOptions="StartAndExpand" Source="ss.ico"></Image>
+           
+            <flex:FlexButton
+                    Padding="0"
+                    BackgroundColor="White"
+                    BorderColor="#49516F"
+                    BorderThickness="0,0,0,0"
+                    Clicked="Button_Clicked"
+                    CornerRadius="20"
+                    FontFamily="{StaticResource RopaSans}"
+                    FontSize="25"
+                    ForegroundColor="#2C3359"
+                    HasShadow="false"
+                    WidthRequest="300"
+                    HeightRequest="50"
+                    HighlightBackgroundColor="#8EA4D2"
+                    HighlightBorderColor="#6279B8"
+                    HighlightForegroundColor="#49516F"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="SIG IN " />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
