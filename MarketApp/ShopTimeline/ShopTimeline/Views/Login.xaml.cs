@@ -25,6 +25,8 @@ namespace ShopTimeline.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            txtusername.Text = "";
+            txtpassword.Text = "";
             ((NavigationPage)Application.Current.MainPage).PushAsync(new CreditCardView());
         }
     }

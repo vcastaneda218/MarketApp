@@ -17,8 +17,13 @@
             Text="LOGIN"
             VerticalOptions="CenterAndExpand" />
             
-            <Image WidthRequest="100" VerticalOptions="StartAndExpand" Source="ss.ico"></Image>
-           
+            <Image WidthRequest="100" VerticalOptions="Start" Source="ss.ico"></Image>
+
+            <Entry x:Name="txtusername" FontFamily="{StaticResource RopaSans}"  PlaceholderColor="White" Margin="0,50,0,0" HorizontalTextAlignment="Center" TextColor="White" HorizontalOptions="CenterAndExpand" WidthRequest="300" Placeholder="username" ></Entry>
+            <Entry x:Name="txtpassword" FontFamily="{StaticResource RopaSans}"  PlaceholderColor="White" Margin="0,0,0,0"  HorizontalTextAlignment="Center" TextColor="White" IsPassword="True" HorizontalOptions="CenterAndExpand"  WidthRequest="300"  Placeholder="password" ></Entry>
+            
+            
+
             <flex:FlexButton
                     Padding="0"
                     BackgroundColor="White"
@@ -35,7 +40,7 @@
                     HighlightBackgroundColor="#8EA4D2"
                     HighlightBorderColor="#6279B8"
                     HighlightForegroundColor="#49516F"
-                    VerticalOptions="StartAndExpand"
+                    VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     Text="SIG IN " />
 
