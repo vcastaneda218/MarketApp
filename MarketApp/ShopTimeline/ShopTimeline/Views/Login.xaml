@@ -17,7 +17,7 @@
             Text="LOGIN"
             VerticalOptions="CenterAndExpand" />
             
-            <Image VerticalOptions="StartAndExpand" Source="ss.ico"></Image>
+            <Image WidthRequest="100" VerticalOptions="StartAndExpand" Source="ss.ico"></Image>
            
             <flex:FlexButton
                     Padding="0"
