@@ -22,7 +22,8 @@ namespace ShopTimeline.Views.Templates
         private void FlexButton_Clicked(object sender, EventArgs e)
         {
 
-            selarrow.IsVisible = false;
+            selarrow.IsVisible = true;
+            selarrow.Play();
             var bank = flexbtn.AutomationId;
           
 

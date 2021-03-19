@@ -9,6 +9,7 @@ using Android.OS;
 using ImageCircle.Forms.Plugin.Droid;
 using Xamarin.Forms;
 using PanCardView.Droid;
+using Lottie.Forms.Droid;
 
 namespace ShopTimeline.Droid
 {
@@ -28,6 +29,7 @@ namespace ShopTimeline.Droid
             CardsViewRenderer.Preserve();
             ImageCircleRenderer.Init();
             LoadApplication(new App());
+            AnimationViewRenderer.Init();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
